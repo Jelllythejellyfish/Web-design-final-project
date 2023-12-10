@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Final project Index CSS">
+    <title>Achievements</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+   
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #1c1c1c;
+            color: #666666;
+        }
+
+        #quote-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #111;
+            padding: 15px 0;
+        }
+
+        #topmenu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        #topmenu ul li {
+            margin: 0 20px;
+        }
+
+        #topmenu ul li a {
+            text-decoration: none;
+            color: #666666;
+            font-size: 18px;
+        }
+
+        #topmenu ul li a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        h1, h2 {
+            color: #f1c40f;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            display: flex;
+            margin: 0;
+            background-image: url('FjzKFODWABge34Y');
+        }
+
+        aside {
+            background-color: #171616;
+            padding: 20px;
+            width: 25%;
+        }
+
+        section,
+        article {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .content {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        video {
+            width: 100%;
+            display: block;
+            margin: 20px auto;
+        }
+
+        footer {
+            background-color: #1c1c1c;
+            color: #666666;
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+            position: bottom;
+            z-index: 1;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 15px;
+            background-color: #555;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        form {
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        input,
+        button {
+            padding: 8px;
+            margin-right: 5px;
+            border: 1px solid #444;
+        }
+
+        button {
+            background-color: #555;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(28, 28, 28) b1b;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="topmenu">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Games</a>
+                <div class="dropdown-content">
+                    <a href="Sekiro.html">Sekiro</a>
+                    <a href="Dark Souls.html">Dark Souls</a>
+                    <a href="Demon Souls.html">Demon Souls</a>
+                    <a href="Elden Ring.html">Elden Ring</a>
+                    <a href="Bloodborne.html">Bloodborne</a>
+                    <a href="Armored Core.html">Armored Core</a>
+                </div>
+            </li>
+            <li><a href="Achievments.html">Achievements</a></li>
+        </ul>
+    </nav>
+
+    <h1>FromSoftware Achievements</h1>
+    <header>Made by Darryl Tamar</header>
+    <main>
+        <aside>Final Project for Web design</aside>
+        <section>
+            <h2>FromSoftware's Achievements</h2>
+            <p>Explore the remarkable achievements of FromSoftware in the gaming industry.</p>
+            <!-- Add more content as needed -->
+        </section>
+        <article>
+            <!-- Add specific achievements content here -->
+        </article>
+    </main>
+
+    <div class="content">
+        <h1>FROMSOFTWARE</h1>
+        <p>FromSoftware, Inc. has achieved great success and recognition for its outstanding contributions to the world of video games.</p>
+        <div id="quote-container">
+            <h2>Random Quote</h2>
+            <p id="quote-text"></p>
+            <button onclick="generateQuote()">Generate A Quote from their games</button>
+        </div>
+    </div>
+
+    <?php $currentDate = date("Y-m-d"); ?>
+
+    <footer>
+        <a href="Web design Assignment (1)" target="_blank">About me</a>
+
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+
+</body>
+
+</html>
+
